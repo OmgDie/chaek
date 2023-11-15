@@ -1,9 +1,13 @@
 import React from 'react';
 import Card from '../components/Card';
+import { useNavigate } from 'react-router-dom';
+import { FIRSTCITY_ROUTE } from '../utils/consts';
 
 const Welcome: React.FC = () => {
+  const navigate = useNavigate();
   const handleButtonClick = () => {
     console.log('Button clicked!');
+    navigate(FIRSTCITY_ROUTE);
   };
 
   return (
