@@ -3,7 +3,7 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import { publicRoutes, CustomRouteProps } from '../routes';
 import { WELCOME_ROUTE } from '../utils/consts';
 
-const AppRouter = () => {
+const AppRouter: React.FC = () => {
   return (
     <Routes>
       {publicRoutes.map(({ path, Component }: CustomRouteProps) => (
