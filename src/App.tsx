@@ -5,7 +5,9 @@ import AppRouter from './components/AppRouter';
 const App: FC = () => {
   return (
     <BrowserRouter>
-      <AppRouter />
+      <div className=" min-h-screen bg-gray-100">
+        <AppRouter />
+      </div>
     </BrowserRouter>
   );
 };
