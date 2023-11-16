@@ -58,7 +58,7 @@ const FirstCity: React.FC = () => {
               <input
                 type="text"
                 placeholder="Напишите любой город, например: Где вы живете?"
-                className="w-full rounded-lg border-none bg-gray-100 py-3 text-black placeholder-black"
+                className="w-full rounded-lg border-none bg-gray-100 py-3 text-black placeholder-black focus:ring-2 focus:ring-violet-600"
               />
               <div className="absolute right-6 top-1/2 -translate-y-1/2 transform">
                 <div className="flex items-center justify-center rounded-lg bg-violet-500 p-2">
